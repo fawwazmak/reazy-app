@@ -1,10 +1,13 @@
 import { useState } from 'react'
+import Preloader from './views/Preloader'
 
 function App() {
 
   return (
     <>
-      <h1 className='bg-red-800 text-white'>HELLO</h1>
+      <div className='h-screen'>
+        <Preloader />
+      </div>
     </>
   )
 }
